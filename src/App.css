@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background-image: url(./images/but.png) ;
+    bottom:50px;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: 500px;
+    background-position-x: left;
+    background-position-y: 400px;
+    font-family: "Lucida Console", "Courier New", monospace;    
+}
+
+/* position: absolute;
+left: -100px;
+bottom: -100px; */
+input {
+    display: block;
+    
+    border-radius: 8px;
+    border-color: aliceblue;
+}
+
+input[name='transfer']{
+    display:inline-block;
+    background-color: rgb(209, 236, 250);
+}
+.transfer{
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px;
+}
+button{
+    margin: 0.5rem 0 0 0.5rem ;
+    background-color: #44b4dc;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+}
+
+.cards-section{
+    display: fixed;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    flex-direction: row;
+
+}
+
+.container {
+
+display: inline-table;
+box-sizing: border-box;
+    margin: 1%;
+    padding: 1rem;
+    line-height: 2rem;
+    background-color: #6b63ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.734);
+
+    border-radius: 15px;
+    text-align: left;
+    width: 290px;
+    height: 350px;
+
+
+
+}
+
+
+ul{
+    font-size: small;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+
+.center-container{
+    position: center;
+   text-align: center;
+   line-height: 2rem;
+   display: block;
+/*    margin: 25rem 0 0 25rem; */
+   
+}
+
+h1{
+    position: center;
+    text-align: center;
+    line-height: 2rem;
+    color: #262367;
+}
+
+progress {
+    border-radius: 19px; 
+    height: 10px;
+
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color: #fefefe;
+    border-radius: 7px;
+  }
+  progress::-webkit-progress-value {
+    background-color: #44b4dc;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 3px rgba(36, 55, 180, 0.8);
+  }
+
+  footer{
+    position: relative;
+    bottom: -50px;
+    
+    color: rgba(0, 0, 0, 0.221);
+  }
+
+  .current-balance{
+    line-height: 3rem 0.50rem;
+  }
+
+  h2{
+    color: rgb(19, 145, 19);
+  }
