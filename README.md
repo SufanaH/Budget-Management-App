@@ -1,5 +1,5 @@
 ## DEMO:
-![Budget App Management Demo](BudgetApp.PNG)
+![Budget App Management Demo](BudgetApp.png)
 
 # My Budget Management App
 
